@@ -1,4 +1,4 @@
-## Notes on Representing a Finite Lattice as the Congruence Lattice of a Finite Partial Algebra
+## Notes on Representing a Finite Lattice as the Congruence Lattice of a Finite __Partial__ Algebra
 
 This repository collects some notes about a few results---not all new---that we
 establish during fall semester 2016, while the author was a postdoc at 
