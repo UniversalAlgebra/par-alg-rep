@@ -245,7 +245,7 @@ begin to develop the framework in which the original result was presented.
 We also recall a theorem from Berman's thesis that relates congruence lattices of
 partial algebras with those of total algebras.
 
-This is a mashup of notations, definitions, and theorems
+This is a mash-up of notations, definitions, and theorems
 for the Universal Algebra and Lattice Theory Seminar
 in Hawaii, Fall Semester 2016. 
 The notes are unfinished and far from perfect.
@@ -355,9 +355,9 @@ Then $\cl_Y$ is a closure operator on $\<\sP(X), \subseteq\>$.
 \end{example}
 
 
-A \defn{fixpoint} of a
+A \defn{fixed point} of a
 function $\cl \colon  P \to P$ is an $x\in P$ satisfying $\cl x = x$.
-A fixpoint of a closure operator is called \defn{closed}.
+A fixed point of a closure operator is called \defn{closed}.
 %% A \defn{closure operator} on a set $X$ is a map $\sansc  \colon \sP(X) \to \sP(X)$ 
 %% satisfying, for all $A, B \in \sP(X)$,
 %% \begin{enumerate}[(a)]
@@ -368,9 +368,9 @@ A fixpoint of a closure operator is called \defn{closed}.
 %% A fixpoint of a closure operator is called a \defn{closed set}.
 If the poset $\bP = \<P, \leq\>$ happens to be a complete lattice,
 then by extensivity the largest element $\top = \Join P$ is
-a fixpoint of every closure operator on $\bP$.
-Also, the collection of fixpoints of a closure operator is closed under arbitrary meets.
-(Proof: If $\sA$ is a set of fixpoints of $\cl$ and  
+a fixed point of every closure operator on $\bP$.
+Also, the collection of fixed points of a closure operator is closed under arbitrary meets.
+(Proof: If $\sA$ is a set of fixed points of $\cl$ and  
 $a \in \sA$, then $\Meet \sA \leq a$, so by monotonicity
 $\cl \bigl( \Meet \sA \bigr) \leq \cl a = a$. 
 Since $a$ was arbitrary,
@@ -385,7 +385,7 @@ order: $\cl_1 \leq  \cl_2$ iff $\cl_1 x \leq  \cl_2 x$ for all $x \in P$.
 
 Some of these observations can be restated as follows:
 if $\bP = \<P, \leq\>$ is a complete lattice,
-then the set $\sC \subseteq P$ of fixpoints of a closure operator
+then the set $\sC \subseteq P$ of fixed points of a closure operator
 is a \defn{Moore family} on $\bP$---that is, 
 %% A subset $\sM \subseteq P$ is called a \defn{Moore family} if
 $\Join P \in \sC$ and every nonempty subset of $\sC$ is closed under arbitrary meets.
@@ -401,7 +401,7 @@ $\cl \colon P \to P$ by
 \]
 then $\cl$ satisfies conditions (1)--(3)
 above, making it a closure operator.
-To summarize, $\sC \subseteq P$ is the set of fixpoints (i.e., closed elements)
+To summarize, $\sC \subseteq P$ is the set of fixed points (i.e., closed elements)
 of a closure operator on
 $\bP$ if and only if $\sC$ is a Moore family on $\bP$.
 
@@ -485,7 +485,7 @@ is called a closure system on $X$.
   (See the commutative diagram in Figure~\ref{fig:splitting}.)
   As a mapping from $\bL$ to itself, $\suv$ does not preserve joins. However,
   $\suv \colon L \to L$ is a closure operator and 
-  $\Luv$ is the set of fixpoints of $\suv$ (the closed sets).
+  $\Luv$ is the set of fixed points of $\suv$ (the closed sets).
 
   \begin{center}
     \begin{figure}[h]
@@ -532,7 +532,7 @@ The collection $\sC$ of closed sets of an algebraic closure operator is called a
 
 \subsection{Algebraic closure systems are subalgebra lattices}
 For an algebra $\bA$, the subalgebra generation operator $\Sg^{\bA}$ is an algebraic
-closure operator (on the poset $\<\sP(A), \subseteq\>$) whose fixpoints are the
+closure operator (on the poset $\<\sP(A), \subseteq\>$) whose fixed points are the
 subalgebras of $\bA$.
 Thus the lattice $\<\Sub(\bA), \join, \meet\>$ of subalgebras of $\bA$ is an algebraic closure
 system.
@@ -642,7 +642,7 @@ To summarize, $\A$ is a total algebra iff $\Join \SCon(\A) = 1_A$.
   \end{enumerate}
 \end{remarks}
 
-\section*{Acknowledgements}
+\section*{Acknowledgments}
 The author would like to thank Peter Jipsen
 and Bill Lampe for many helpful discussions.
 
