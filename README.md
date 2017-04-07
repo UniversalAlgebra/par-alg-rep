@@ -1,11 +1,12 @@
 ## Notes on Representing a Finite Lattice as the Congruence Lattice of a Finite Partial Algebra
 
-This repository collects some notes about a few results---not all new---that we
-establish during fall semester 2016, while the author was a postdoc at 
-University of Hawaii, although the main result was discovered during a week-long
-visit to Chapman University in October 2016.
+The main document in this repository is par-alg-rep.pdf.  It contains 
+some notes about a few results---not all new---that we
+worked out in the fall semester of 2016, while the author was a postdoc at 
+University of Hawaii, although the main result was discovered during
+a visit to Chapman University in October 2016.
 
-This is joint work with **Peter Jipsen**.
+This is joint work with **Peter Jipsen** and **Bill Lampe**.
 
 **Title:** [Congruences of Partial and Total Algebras](https://github.com/UniversalAlgebra/par-alg-rep/raw/master/par-alg-rep.pdf)
 **Author:** William DeMeo [@williamdemeo](https://github.com/williamdemeo)  
